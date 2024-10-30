@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>12</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Ardalis.GuardClauses" Version="4.6.0"/>
+        <PackageReference Include="SimSharp" Version="3.4.2"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Domain\"/>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>12</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Spectre.Console.Cli" Version="0.49.1"/>
+        <PackageReference Include="Spectre.Console.Cli.Extensions.DependencyInjection" Version="0.2.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Damona.Examples\Damona.Examples.csproj"/>
+        <ProjectReference Include="..\Damona.Schemas\Damona.Schemas.csproj"/>
+        <ProjectReference Include="..\Damona.Simulator\Damona.Simulator.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Include="../Damona.Simulator/Aliases.cs" Link="Aliases.cs"/>
+    </ItemGroup>
+
+</Project>

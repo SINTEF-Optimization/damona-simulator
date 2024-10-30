@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Damona.Schemas\Damona.Schemas.csproj"/>
+        <ProjectReference Include="..\Damona.Simulator\Damona.Simulator.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Include="../Damona.Simulator/Aliases.cs" Link="Aliases.cs"/>
+    </ItemGroup>
+
+</Project>

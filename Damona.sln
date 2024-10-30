@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Damona.Simulator", "Damona.Simulator\Damona.Simulator.csproj", "{0F23832F-019F-4C3E-B2DB-3FC842F51777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Damona.Cli", "Damona.Cli\Damona.Cli.csproj", "{CB192CEA-B224-4CDF-8702-83481D46BB26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Damona.Simulator.Tests", "Damona.Simulator.Tests\Damona.Simulator.Tests.csproj", "{A70DAE64-C58D-4BBF-AEA6-102DBBFFB9A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Damona.Schemas", "Damona.Schemas\Damona.Schemas.csproj", "{8FC8B101-84BE-4CFA-8650-85994E14055B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{D42545A6-0B0E-4A69-A45A-C36138DA28BB}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Damona.Examples", "Damona.Examples\Damona.Examples.csproj", "{D9DCB3DC-7100-40C3-89AF-34314A35C1B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Damona.Schemas.Tests", "Damona.Schemas.Tests\Damona.Schemas.Tests.csproj", "{941607AC-39A1-4E52-9438-9CED75D89AE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F23832F-019F-4C3E-B2DB-3FC842F51777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F23832F-019F-4C3E-B2DB-3FC842F51777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F23832F-019F-4C3E-B2DB-3FC842F51777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F23832F-019F-4C3E-B2DB-3FC842F51777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB192CEA-B224-4CDF-8702-83481D46BB26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB192CEA-B224-4CDF-8702-83481D46BB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB192CEA-B224-4CDF-8702-83481D46BB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB192CEA-B224-4CDF-8702-83481D46BB26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A70DAE64-C58D-4BBF-AEA6-102DBBFFB9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A70DAE64-C58D-4BBF-AEA6-102DBBFFB9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A70DAE64-C58D-4BBF-AEA6-102DBBFFB9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A70DAE64-C58D-4BBF-AEA6-102DBBFFB9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC8B101-84BE-4CFA-8650-85994E14055B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC8B101-84BE-4CFA-8650-85994E14055B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC8B101-84BE-4CFA-8650-85994E14055B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC8B101-84BE-4CFA-8650-85994E14055B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9DCB3DC-7100-40C3-89AF-34314A35C1B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9DCB3DC-7100-40C3-89AF-34314A35C1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9DCB3DC-7100-40C3-89AF-34314A35C1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9DCB3DC-7100-40C3-89AF-34314A35C1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{941607AC-39A1-4E52-9438-9CED75D89AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{941607AC-39A1-4E52-9438-9CED75D89AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{941607AC-39A1-4E52-9438-9CED75D89AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{941607AC-39A1-4E52-9438-9CED75D89AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

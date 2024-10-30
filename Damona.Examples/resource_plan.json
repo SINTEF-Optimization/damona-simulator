@@ -1,0 +1,102 @@
+{
+  "base": {
+    "operatingTheatres": [
+      {
+        "name": "theatre 1 - emergencies",
+        "allocations": {
+          "monday": [
+            {
+              "specialty": "emergency",
+              "from": "00:00:00",
+              "to": "23:59:59"
+            }
+          ],
+          "tuesday": [
+            {
+              "specialty": "emergency",
+              "from": "00:00:00",
+              "to": "23:59:59"
+            }
+          ],
+          "wednesday": [
+            {
+              "specialty": "emergency",
+              "from": "00:00:00",
+              "to": "23:59:59"
+            }
+          ],
+          "thursday": [
+            {
+              "specialty": "emergency",
+              "from": "00:00:00",
+              "to": "23:59:59"
+            }
+          ],
+          "friday": [
+            {
+              "specialty": "emergency",
+              "from": "00:00:00",
+              "to": "23:59:59"
+            }
+          ],
+          "saturday": [
+            {
+              "specialty": "emergency",
+              "from": "00:00:00",
+              "to": "23:59:59"
+            }
+          ],
+          "sunday": [
+            {
+              "specialty": "emergency",
+              "from": "00:00:00",
+              "to": "23:59:59"
+            }
+          ]
+        }
+      },
+      {
+        "name": "theatre-2",
+        "allocations": {
+          "monday": [
+            {
+              "specialty": "specialty-1",
+              "from": "08:00:00",
+              "to": "15:00:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "specialty": "specialty-1",
+              "from": "08:00:00",
+              "to": "15:00:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "specialty": "specialty-1",
+              "from": "08:50:00",
+              "to": "15:00:00"
+            }
+          ],
+          "thursday": [
+            {
+              "specialty": "specialty-1",
+              "from": "08:40:00",
+              "to": "15:00:00"
+            }
+          ],
+          "friday": [
+            {
+              "specialty": "specialty-1",
+              "from": "08:00:00",
+              "to": "11:30:00"
+            }
+          ],
+          "saturday": [],
+          "sunday": []
+        }
+      }
+    ]
+  }
+}
